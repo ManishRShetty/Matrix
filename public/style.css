@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+  }
+ 
+  body{
+    background-color: #082032;
+    color: white;
+  }
+
+.navbar{
+    background-color: inherit;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px white solid;
+}
+
+
+.navbar h1{
+    font-size: 3.1rem;
+}
+.logo{
+    width: 5%;
+    height: 70%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.logo svg{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: white;
+}
+.result{
+    padding: 40px,0px,40px,0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 13vh;
+}
+
+
+
+.searchsub{
+    background-color: inherit;
+    height: 13vh;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.search{
+    width: 65%;
+    height:70%;
+    background-color: transparent;
+}
+.subbutton
+{
+    width: 10%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+.search input{
+    width: 100%;
+    height: 100%;
+  border-radius:40px ;
+  border: white 2px solid;
+  color: white;
+  background-color: inherit;
+  padding: 0px 30px 0px 30px;
+  font-size: 20px;
+}
+.subbutton button{
+    width: 100%;
+    height: 100%;
+  border-radius:40px ;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+
+.subbutton button:hover{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    transition-duration: 1s;
+    transition: border-color 1s, background-color 1s, color 1s;
+}
